@@ -1,6 +1,6 @@
 # APDC-PEI 25/26 — First Web Application (Part 3)
 
-Building on Part 2, this version introduces **user authentication** via a login endpoint, **JWT-based auth tokens**, and a **CORS response filter** to allow cross-origin requests.
+Building on Part 2, this version introduces **user authentication** via a login endpoint (rudimentar).
 
 ---
 
