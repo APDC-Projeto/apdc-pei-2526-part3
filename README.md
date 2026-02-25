@@ -9,7 +9,6 @@ Building on Part 2, this version introduces **user authentication** via a login 
 - A new **`/rest/login`** endpoint was added to handle user authentication
 - A **`LoginData`** utility class was added to deserialize login request bodies
 - An **`AuthToken`** utility class was added to generate and represent authentication tokens
-- A **`ContainerResponseFilter`** was added to set CORS headers on every response
 
 ---
 
@@ -193,8 +192,6 @@ src/
 └── main/
     ├── java/
     │   └── pt/unl/fct/di/apdc/firstwebapp/
-    │       ├── filters/
-    │       │   └── AdditionalResponseHeadersFilter.java  ← CORS filter
     │       ├── resources/
     │       │   ├── ComputationResource.java              ← Utility endpoints
     │       │   └── LoginResource.java                    ← Login endpoint
