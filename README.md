@@ -1,4 +1,4 @@
-# APDC-PEI 25/26 — First Web Application (Part 3)
+# ADC-PEI 25/26 — First Web Application (Part 3)
 
 Building on Part 2, this version introduces **user authentication** via a login endpoint (rudimentar).
 
@@ -55,7 +55,8 @@ The token is valid for **2 hours** from the time of creation.
 
 Before you begin, make sure you have the following installed:
 
-- [Java 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
+- [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) / [Java 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
+- [Python 3.10](https://www.python.org/downloads/release/python-3100/) (for the Google Cloud SDK download)
 - [Apache Maven](https://maven.apache.org/install.html)
 - [Git](https://git-scm.com/)
 - [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) (for cloud deployment)
@@ -70,8 +71,8 @@ Before you begin, make sure you have the following installed:
 Fork the project on GitHub, then clone your fork locally:
 
 ```bash
-git clone git@github.com:APDC-Projeto/apdc-pei-2526-part3.git
-cd apdc-pei-2526-part3
+git clone git@github.com:ADC-Projeto/adc-pei-2526-part3.git
+cd adc-pei-2526-part3
 ```
 
 ### 2. Import into Eclipse
@@ -162,7 +163,7 @@ curl http://localhost:8080/rest/login/someother
 
 ### 1. Create a project on Google Cloud Console
 
-Go to https://console.cloud.google.com/ and create a new project. Take note of the Project ID (e.g. `my-apdc-app`).
+Go to https://console.cloud.google.com/ and create a new project. Take note of the Project ID (e.g. `my-adc-app`).
 
 ### 2. Authenticate with Google Cloud
 
@@ -191,7 +192,7 @@ https://<your-project-id>.appspot.com/
 src/
 └── main/
     ├── java/
-    │   └── pt/unl/fct/di/apdc/firstwebapp/
+    │   └── pt/unl/fct/di/adc/firstwebapp/
     │       ├── resources/
     │       │   ├── ComputationResource.java              ← Utility endpoints
     │       │   └── LoginResource.java                    ← Login endpoint
