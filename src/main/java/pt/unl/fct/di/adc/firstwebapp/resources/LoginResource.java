@@ -1,4 +1,4 @@
-package pt.unl.fct.di.apdc.firstwebapp.resources;
+package pt.unl.fct.di.adc.firstwebapp.resources;
 
 import java.util.logging.Logger;
 
@@ -10,10 +10,9 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import jakarta.ws.rs.core.Response.Status;
 
-import pt.unl.fct.di.apdc.firstwebapp.util.AuthToken;
-import pt.unl.fct.di.apdc.firstwebapp.util.LoginData;
+import pt.unl.fct.di.adc.firstwebapp.util.AuthToken;
+import pt.unl.fct.di.adc.firstwebapp.util.LoginData;
 
 import com.google.gson.Gson;
 
