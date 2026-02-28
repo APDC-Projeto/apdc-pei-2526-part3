@@ -55,6 +55,8 @@ The token is valid for **2 hours** from the time of creation.
 
 Before you begin, make sure you have the following installed:
 
+- **Google Cloud Account**
+  > ⚠️ See the instructions to redeem your cupon in shared materials: **`ADC_Project_Google_Cloud_Account_Creation.pdf`**
 - [Java 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
 - [Python 3.10](https://www.python.org/downloads/release/python-3100/) (for the Google Cloud SDK download)
 - [Apache Maven](https://maven.apache.org/install.html)
